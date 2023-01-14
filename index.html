@@ -27,24 +27,24 @@
 <body>
     <header class="bg-yellow-50">
         <!-- navigation part start -->
-        <nav class="flex justify-between pt-8 mx-20">
-            <div class="flex justify-center items-center">
+        <nav class="lg:flex lg:justify-between sm:flex-row pt-8 mx-20">
+            <div class="lg:flex lg:justify-center lg:items-center sm:flex sm:justify-start">
                 <img class="h-20 w-96" src="icons/Group 33072.png" alt="">
 
             </div>
-            <div class="flex justify-center items-center">
-                <a href="" class="mx-8">Home</a>
-                <a href="" class="mx-8">Product</a>
-                <a href="" class="mx-8">About us</a>
-                <a href="" class="mx-8">Contact us</a>
+            <div class="lg:flex lg:justify-center lg:items-center">
+                <a class="sm:flex sm:flex-row sm:justify-end mx-4" href="" class="mx-8">Home</a>
+                <a class="sm:flex sm:flex-row sm:justify-end mx-4" href="" class="mx-8">Product</a>
+                <a class="sm:flex sm:flex-row sm:justify-end mx-4" href="" class="mx-8">About us</a>
+                <a class="sm:flex sm:flex-row sm:justify-end mx-4" href="" class="mx-8">Contact us</a>
 
             </div>
         </nav>
         <!-- navigation part end  -->
         <!-- banner section start -->
-        <section class="flex justify-between pb-16 mx-20">
+        <section class="lg:flex justify-between pb-16 mx-20 sm:flex-row">
 
-            <div class="flex flex-col justify-center items-center">
+            <div class="flex flex-col justify-center items-center ">
                 <div>
                     <h1 class="mb-4 text-3xl font-black">
                         <span class="text-orange-300">Be the Penguins</span> <br>
@@ -72,8 +72,11 @@
     <main class="">
         <!-- women's jacket start  -->
         <section class="mb-8">
-            <h1 class="uppercase text-black my-16 text-4xl font-extrabold mx-20">Women Jacket</h1>
-            <div class="flex mx-16">
+            <h1
+                class="uppercase text-black my-16 text-4xl font-extrabold mx-20 flex lg:justify-start sm:justify-center">
+                Women Jacket
+            </h1>
+            <div class="lg:flex mx-16 sm:flex-row">
                 <!-- jacket 1 -->
                 <div class="shadow-lg mx-4 rounded-lg">
                     <div class="p-16">
@@ -168,8 +171,11 @@
 
         <!-- men's jacket start  -->
         <section class="mb-8">
-            <h1 class="uppercase text-black my-16 text-4xl font-extrabold mx-20">Men Jacket</h1>
-            <div class="flex mx-16">
+            <h1
+                class="uppercase text-black my-16 text-4xl font-extrabold mx-20 flex lg:justify-start sm:justify-center">
+                Men Jacket
+            </h1>
+            <div class="lg:flex mx-16 sm:flex-row">
                 <!-- jacket 4 -->
                 <div class="shadow-lg mx-4 rounded-lg">
                     <div class="p-16">
@@ -266,44 +272,51 @@
 
         <!-- bottom part start  -->
         <section class="mx-20 mb-20">
-            <div class="grid grid-cols-2 gap-6">
-                <div class="shadow-xl h-32 flex items-center rounded-2xl">
-                    <div>
-                        <img class="h-16 w-24 mx-8" src="icons/image 12.png" alt="">
+            <div class="grid lg:grid-cols-2 sm:grid-flow-row gap-6">
+                <div class="lg:order-first sm:order-last">
+                    <div class="shadow-xl h-32 flex items-center rounded-2xl">
+                        <div>
+                            <img class="h-16 w-24 mx-8" src="icons/image 12.png" alt="">
 
+                        </div>
+                        <div>
+                            <h1 class="text-3xl font-bold">Find the Perfect Fit
+                            </h1>
+                            <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
+                        </div>
                     </div>
-                    <div>
-                        <h1 class="text-3xl font-bold">Find the Perfect Fit
-                        </h1>
-                        <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
+
+
+                    <div class="shadow-xl h-32 flex items-center rounded-2xl">
+                        <div>
+                            <img class="h-16 w-24 mx-8" src="icons/image 13.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-3xl font-bold">Find the Perfect Fit
+                            </h1>
+                            <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="shadow-xl h-32 flex items-center rounded-2xl">
+                        <div>
+                            <img class="h-16 w-24 mx-8" src="icons/image 14.png" alt="">
+
+                        </div>
+                        <div>
+                            <h1 class="text-3xl font-bold">Find the Perfect Fit
+                            </h1>
+                            <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
+                        </div>
                     </div>
                 </div>
-                <div class=" row-span-3">
+
+
+                <div class="">
                     <div class="flex justify-center items-center">
                         <img src="images/shopping.png" alt="">
                     </div>
                 </div>
-                <div class="shadow-xl h-32 flex items-center rounded-2xl">
-                    <div>
-                        <img class="h-16 w-24 mx-8" src="icons/image 13.png" alt="">
-                    </div>
-                    <div>
-                        <h1 class="text-3xl font-bold">Find the Perfect Fit
-                        </h1>
-                        <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="shadow-xl h-32 flex items-center rounded-2xl">
-                    <div>
-                        <img class="h-16 w-24 mx-8" src="icons/image 14.png" alt="">
 
-                    </div>
-                    <div>
-                        <h1 class="text-3xl font-bold">Find the Perfect Fit
-                        </h1>
-                        <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
-                    </div>
-                </div>
 
             </div>
         </section>
